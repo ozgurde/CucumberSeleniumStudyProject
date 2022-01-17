@@ -1,0 +1,300 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-17T11:03:38.026Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1983100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Driver user",
+        "description": "",
+        "id": "account-types;driver-user",
+        "after": [
+          {
+            "result": {
+              "duration": 845105100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6583360400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user logged in as \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4682666900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to \"Activities\" \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5138891000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the title contains \"Calendar Events - Activities\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Calendar Events - Activities\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-17T11:03:55.363Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Sales manager user",
+        "description": "",
+        "id": "account-types;sales-manager-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1260287800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10040838900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user logged in as \"salesmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesmanager\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7063208800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user navigates to \"Customers\" \"Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5014963500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the title contains \"Accounts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accounts - Customers\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-17T11:04:18.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Store manager user",
+        "description": "",
+        "id": "account-types;store-manager-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1185867600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10221827300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user logged in as \"storemanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3827086300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates to \"Customers\" \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5006832400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the title contains \"Contacts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contacts - Customers\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Account types",
+    "description": "",
+    "id": "account-types",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountTypes.feature",
+    "tags": []
+  }
+]
